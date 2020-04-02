@@ -25,3 +25,11 @@ p{
 h6{
     color: gray;
 }
+
+.nickname_date{
+    color:grey;
+}
+
+.arrowdown{
+    margin-left: 280px;
+}

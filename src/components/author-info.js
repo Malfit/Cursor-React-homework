@@ -11,7 +11,8 @@ const AuthorInfo = ({authorInfo}) => {
         <div className = "authorInfo">
                 <img className = "authorAvatar" src={authorPhoto} alt="error"></img>
                 <div className = "postInfo"> 
-                    <p>{authorName}  <FaRegCheckCircle/>   {authorNickname} {postDate}  <MdKeyboardArrowDown/></p> 
+                    <p>{authorName}  <FaRegCheckCircle/>   <span className = "nickname_date">{authorNickname} {postDate}</span> 
+                        <span className = "arrowdown"> <MdKeyboardArrowDown/></span></p> 
                        
                     <p>{postContent}</p>
                 </div>
