@@ -1,0 +1,27 @@
+.authorAvatar{   
+    border-radius: 50%;
+    height:  60px;
+    margin: 10px; 
+}
+
+
+.authorInfo{
+    display: flex;
+    color:white;  
+    height: 70px;
+    width:700px;
+}
+postInfo{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+h6{
+    color: gray;
+}

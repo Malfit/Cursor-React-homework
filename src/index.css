@@ -1,0 +1,10 @@
+.post{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color : #15202b;
+   width: 700px;
+   height: 365px;
+   font-family: 'Do Hyeon', sans-serif;
+}
